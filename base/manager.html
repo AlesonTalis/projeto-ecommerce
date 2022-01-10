@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/colors/main.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        @import url('./colors/main.css');
+    </style>
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="top-menu">
+                <div class="menu">
+                    <label for="open-menu" class="open-menu">
+                        <span class="material-icons">
+                            menu
+                        </span>
+                    </label>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        HELLO!
+                    </a>
+                </div>
+                <div class="actions">
+                    <a href="login.html">
+                        <span class="material-icons">
+                            account_circle
+                        </span>
+                    </a>
+                    <a href="cart.html">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>Roupas e Roupas</h1>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Roupas</a></li>
+                <li><a href="#">Calçados</a></li>
+                <li><a href="#">Acessórios</a></li>
+            </ul>
+        </header>
+        <div class="container">
+          <div class="all-products">
+            <div class="all-products-search">
+              <form action="">
+                <div class="inp-search">
+                  <input type="text" name="search" placeholder="Buscar">
+                  <button type="submit">
+                    <span class="material-icons">
+                      search
+                    </span>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="all-products-container">
+              <div class="product-content-view header">
+                <div></div>
+                <div class="content-view-title">
+                  <span>Nome do produto</span>
+                </div>
+                <div class="content-view-price">
+                  <span>Valor normal</span>
+                </div>
+                <div class="content-view-price">
+                  <span>Valor promocional</span>
+                </div>
+                <div class="content-view-stock">
+                  <span>Estoque</span>
+                </div>
+                <div class="content-view-visibility">
+                  <span>Visibilidade</span>
+                </div>
+                <div class="content-view-actions">
+                  <span>Ações</span>
+                </div>
+              </div>
+              <div class="product-content-view">
+                <div class="content-view-image">
+                  <img src="./assets/images/shoes.png" alt="">
+                </div>
+                <div class="content-view-title">
+                  <h2>Product 01</h2>
+                  <span>Tenis</span>
+                </div>
+                <div class="content-view-price">
+                  <span>R$</span>
+                  <span>99,99</span>
+                </div>
+                <div class="content-view-price">
+                  <span>R$</span>
+                  <span>99,99</span>
+                </div>
+                <div class="content-view-stock">
+                  <span>20</span>
+                </div>
+                <div class="content-view-visibility">
+                  <span class="material-icons">
+                    visibility
+                  </span>
+                </div>
+                <div class="content-view-actions">
+                  <span class="material-icons">
+                    more_horiz
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+            <div class="footer-news">
+                <div class="footer-news-title">
+                    <h2>Se inscreva no nosso canal</h2>
+                    <span>e receba as novidades de nossa loja</span>
+                </div>
+                <div class="footer-news-form">
+                    <form action="#" method="post">
+                        <label for="email" class="inp-label">
+                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function dontGo(e) {
+            e.preventDefault();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/colors/main.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        @import url('./colors/main.css');
+    </style>
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="top-menu">
+                <div class="menu">
+                    <label for="open-menu" class="open-menu">
+                        <span class="material-icons">
+                            menu
+                        </span>
+                    </label>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        HELLO!
+                    </a>
+                </div>
+                <div class="actions">
+                    <a href="login.html">
+                        <span class="material-icons">
+                            account_circle
+                        </span>
+                    </a>
+                    <a href="cart.html">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>Roupas e Roupas</h1>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Roupas</a></li>
+                <li><a href="#">Calçados</a></li>
+                <li><a href="#">Acessórios</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="product-detail">
+              <div class="product-detail-top">
+                <div class="detail-top-images">
+                  <div class="top-images-main">
+                    <img src="./assets/images/shoes.png" alt="shoes">
+                  </div>
+                  <div class="top-images-others">
+                    <ul>
+                      <li class="selected">
+                        <a href="#">
+                          <img src="./assets/images/shoes.png" alt="shoes">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="./assets/images/shoes.png" alt="shoes">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="./assets/images/shoes.png" alt="shoes">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="./assets/images/shoes.png" alt="shoes">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="detail-top-content">
+                  <div class="top-content-brand">
+                    <h3>Marca</h3>
+                  </div>
+                  <div class="top-content-title">
+                    <h2>Tenis tipo 2</h2>
+                  </div>
+                  <div class="top-content-rate-reviews">
+                    <div class="content-rate rate">
+                      <span class="material-icons">star</span>
+                      <span class="material-icons">star</span>
+                      <span class="material-icons">star</span>
+                      <span class="material-icons">star_half</span>
+                      <span class="material-icons">star_border</span>
+                    </div>
+                    <div class="content-reviews">
+                      <span>25 reviews</span>
+                    </div>
+                  </div>
+                  <div class="top-content-variations">
+                    <div class="content-variations">
+                      <span>Cor:</span>
+                      <ul class="colors">
+                        <li class="selected">
+                          <a href="#">
+                            <span class="sphere red"></span>
+                            <span class="material-icons">checkmark</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span class="sphere green"></span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span class="sphere blue"></span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="content-variations">
+                      <span>Tamanho</span>
+                      <ul class="sizes">
+                        <li class="selected">
+                          <a href="#">
+                            <span>P</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span>M</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span>G</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span>GG</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="top-content-price-sale-qnt-buy">
+                    <div class="content-price">
+                      <span>R$</span>
+                      <span>99,90</span>
+                    </div>
+                    <div class="content-price-old">
+                      <span>R$</span>
+                      <span>199,90</span>
+                    </div>
+                    <div class="content-sale">
+                      <span>- 50%</span>
+                    </div>
+                  </div>
+                  <div class="top-content-price-sale-qnt-buy">
+                    <div class="content-qnt inp-add-rem inp">
+                      <button class="remove" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                        <span class="material-icons">remove</span>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" placeholder="1">
+                      <button class="add" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                        <span class="material-icons">
+                          add
+                        </span>
+                      </button>
+                    </div>
+
+                    <div class="content-buy">
+                      <a class="btn btn-primary btn-rounded" href="#">
+                        <span class="material-icons">add_shopping_cart</span>
+                        <span>Comprar</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-news">
+                <div class="footer-news-title">
+                    <h2>Se inscreva no nosso canal</h2>
+                    <span>e receba as novidades de nossa loja</span>
+                </div>
+                <div class="footer-news-form">
+                    <form action="#" method="post">
+                        <label for="email" class="inp-label">
+                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

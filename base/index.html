@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/colors/main.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        @import url('./colors/main.css');
+    </style>
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="top-menu">
+                <div class="menu">
+                    <label for="open-menu" class="open-menu">
+                        <span class="material-icons">
+                            menu
+                        </span>
+                    </label>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        HELLO!
+                    </a>
+                </div>
+                <div class="actions">
+                    <a href="login.html">
+                        <span class="material-icons">
+                            account_circle
+                        </span>
+                    </a>
+                    <a href="cart.html">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>Roupas e Roupas</h1>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Roupas</a></li>
+                <li><a href="#">Calçados</a></li>
+                <li><a href="#">Acessórios</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="saldo">
+                <div class="saldo-large">
+                    <div class="saldo-block">
+                        <div class="saldo-category">
+                            <span>roupas</span>
+                        </div>
+                        <div class="saldo-detail">
+                            <span>calça masculina</span>
+                        </div>
+                        <div class="saldo-price">
+                            <span>R$</span>
+                            <span>99,90</span>
+                        </div>
+                        <div class="saldo-button">
+                            <a href="#" class="btn btn-rounded btn-primary">Comprar agora</a>
+                        </div>
+                    </div>
+                    <div class="saldo-block">
+                        <div class="saldo-image">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="saldo-small">
+                    <div class="saldo-block">
+                        <div class="saldo-category">
+                            <span>roupas</span>
+                        </div>
+                        <div class="saldo-detail">
+                            <span>calça masculina</span>
+                        </div>
+                        <div class="saldo-price">
+                            <span>R$</span>
+                            <span>99,90</span>
+                        </div>
+                        <div class="saldo-button">
+                            <a href="#" class="btn btn-rounded btn-secondary">Comprar agora</a>
+                        </div>
+                    </div>
+                    <div class="saldo-block">
+                        <div class="saldo-image">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <input type="checkbox" name="content-grid-list" id="content-grid-list">
+                <div class="content-header">
+                    <div class="content-block">
+                        <div class="content-block-title">
+                            <span>Filter</span>
+                        </div>
+                        <div class="content-block-button">
+                            <a href="#" class="">
+                                <span class="material-icons">
+                                    filter_list
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <div class="content-block-title">
+                            <span>Ordenar por</span>
+                        </div>
+                        <div class="content-block-button">
+                            <a href="#" class="">
+                                <span class="material-icons">
+                                    sort
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <div class="content-block-title">
+                            <span>Paginação</span>
+                        </div>
+                        <div class="content-block-button">
+                            <a href="#" class="">
+                                <span class="material-icons">
+                                    keyboard_arrow_left
+                                </span>
+                            </a>
+                            <a href="#" class="">
+                                <span class="material-icons">
+                                    keyboard_arrow_right
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="content-block">
+                        <div class="content-block-buttons">
+                            <label for="content-grid-list" class="content-grid-list">
+                                <span class="material-icons">
+                                    view_list
+                                </span>
+                            </label>
+                            <label for="content-grid-list" class="content-grid-list">
+                                <span class="material-icons">
+                                    view_module
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-area">
+                    <div class="content-filter">
+                        <div class="content-filter-block">
+                            <input type="checkbox" name="expand-categories" id="expand-categories" style="display: none;">
+                            <div class="content-filter-block-title">
+                                <span>Categorias</span>
+                                <label for="expand-categories" class="content-filter-block-expand">
+                                    <span class="material-icons expand">
+                                        expand_more
+                                    </span>
+                                    <span class="material-icons collapse">
+                                        expand_less
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="content-filter-block-content">
+                                <ul>
+                                    <li><a href="#">Todos</a></li>
+                                    <li><a href="#">Calçados</a></li>
+                                    <li><a href="#">Roupas</a></li>
+                                    <li><a href="#">Acessórios</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-body">
+                        <div class="content-body-grid">
+                            <a href="#" class="grid-block">
+                                <div class="grid-block-image">
+                                    <img src="./assets/images/shoes.png"/>
+                                </div>
+                                <div class="grid-block-title">
+                                    <span>Tenis</span>
+                                </div>
+                                <div class="grid-block-rate">
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                </div>
+                                <div class="grid-block-price">
+                                    <span>R$</span>
+                                    <span>99,90</span>
+                                </div>
+                                <div class="grid-block-buy-hide">
+                                    <button class="btn btn-rounded btn-primary">
+                                        <span class="buy">Comprar</span>
+                                        <span class="price">R$ 99,90</span>
+                                    </button>
+                                </div>
+                                <div class="grid-block-buy">
+                                    <div class="block-buy-title">
+                                        <span>Tenis</span>
+                                    </div>
+                                    <div class="block-buy-button">
+                                        <button class="btn btn-rounded btn-primary">
+                                            Comprar
+                                        </button>
+                                        <button class="btn btn-rounded">
+                                            <span class="material-icons">
+                                                add_shopping_cart
+                                            </span>
+                                        </button>
+                                        <button class="btn btn-rounded">
+                                            <span class="material-icons">
+                                                favorite
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div class="block-buy-small-description">
+                                        <span>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </span>
+                                    </div>
+                                    <!-- price -->
+                                    <div class="block-buy-price">
+                                        <span>R$</span>
+                                        <span>99,90</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid-block">
+                                <div class="grid-block-image">
+                                    <img src="./assets/images/shoes.png"/>
+                                </div>
+                                <div class="grid-block-title">
+                                    <span>Tenis</span>
+                                </div>
+                                <div class="grid-block-rate">
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                </div>
+                                <div class="grid-block-price">
+                                    <span>R$</span>
+                                    <span>99,90</span>
+                                </div>
+                            </a>
+                            <a href="#" class="grid-block">
+                                <div class="grid-block-image">
+                                    <img src="./assets/images/shoes.png"/>
+                                </div>
+                                <div class="grid-block-title">
+                                    <span>Tenis</span>
+                                </div>
+                                <div class="grid-block-rate">
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                    <span class="material-icons">star</span>
+                                </div>
+                                <div class="grid-block-price">
+                                    <span>R$</span>
+                                    <span>99,90</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-footer">
+                <div class="flex-1"></div>
+                <div class="content-footer-block">
+                    <div class="content-footer-block-title">
+                        <span>Paginação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-news">
+                <div class="footer-news-title">
+                    <h2>Se inscreva no nosso canal</h2>
+                    <span>e receba as novidades de nossa loja</span>
+                </div>
+                <div class="footer-news-form">
+                    <form action="#" method="post">
+                        <label for="email" class="inp-label">
+                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function dontGo(e) {
+            e.preventDefault();
+        }
+    </script>
+</body>
+</html>

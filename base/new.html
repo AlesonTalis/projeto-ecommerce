@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/colors/main.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        @import url('./colors/main.css');
+    </style>
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="top-menu">
+                <div class="menu">
+                    <label for="open-menu" class="open-menu">
+                        <span class="material-icons">
+                            menu
+                        </span>
+                    </label>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        HELLO!
+                    </a>
+                </div>
+                <div class="actions">
+                    <a href="login.html">
+                        <span class="material-icons">
+                            account_circle
+                        </span>
+                    </a>
+                    <a href="cart.html">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>Roupas e Roupas</h1>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Roupas</a></li>
+                <li><a href="#">Calçados</a></li>
+                <li><a href="#">Acessórios</a></li>
+            </ul>
+        </header>
+        <div class="container">
+          <div class="add-product">
+            <div class="add-product-details">
+              <div class="add-product-details-content">
+                <div class="details-content-title">
+                  <h1 class="block-title">Adicionar Produto</h1>
+                </div>
+
+                <div class="details-content-visibility">
+                  <div class="visibility-title">
+                    <h1 class="block-title">Visibilidade</h1>
+                  </div>
+                  <div class="visibility-content">
+                    <div class="visibility-content-item">
+                      <input type="checkbox" name="visibility" id="visibility">
+                      <label for="visibility">
+                        <span class="material-icons visible">
+                          visibility
+                        </span>
+                        <span class="material-icons not-visible">
+                          visibility_off
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="detail-content-name">
+                  <div class="name-title">
+                    <h1 class="block-title">Nome do Produto</h1>
+                  </div>
+                  <div class="name-content">
+                    <input type="text" name="name" id="name" placeholder="Nome do produto" class="inp-text">
+                  </div>
+                </div>
+
+                <div class="detail-content-price-stock-sale">
+                  <div class="content-stock">
+                    <div class="stock-title">
+                      <h1 class="block-title">Estoque</h1>
+                    </div>
+                    <div class="stock-content">
+                      <input type="number" name="stock" id="stock" placeholder="Quantidade em estoque" class="inp-number">
+                    </div>
+                  </div>
+                  <div class="content-price">
+                    <div class="price-title">
+                      <h1 class="block-title">Preço</h1>
+                    </div>
+                    <div class="price-content">
+                      <input type="number" name="price" id="price" placeholder="Preço do produto" class="inp-number">
+                    </div>
+                  </div>
+                  <div class="content-sale">
+                    <div class="sale-title">
+                      <label for="onsale">
+                        <input type="checkbox" name="onsale" id="onsale" value="1">
+                        <span>Tem desconto</span>
+                      </label>
+                    </div>
+                    <div class="sale-content">
+                      <input type="number" name="sale" id="sale" placeholder="Desconto do produto" class="inp-number">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="detail-content-description">
+                  <div class="description-title">
+                    <h1 class="block-title">Descrição</h1>
+                  </div>
+                  <div class="description-content">
+                    <textarea name="description" id="description" placeholder="Descrição do produto" class="inp-textarea"></textarea>
+                  </div>
+                </div>
+
+              </div>
+              <div class="add-product-details-images">
+                <div class="details-images-blocks">
+                  <div class="images-blocks-title">
+                    <h1 class="block-title">Imagens</h1>
+                  </div>
+                  <div class="images-blocks-content">
+                    <div class="images-blocks-content-item">
+                      <div class="images-blocks-content-item-img">
+                        <img src="./assets/images/shoes.png" alt="">
+                      </div>
+                      <div class="images-blocks-content-item-actions">
+                        <a href="#">
+                          <span class="material-icons">
+                            edit
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="material-icons">
+                            delete
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="images-blocks-content-item">
+                      <div class="images-blocks-content-item-new">
+                        <span class="material-icons">add_circle</span>
+                        <a href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="add-product-save"></div>
+          </div>
+        </div>
+        <footer>
+            <div class="footer-news">
+                <div class="footer-news-title">
+                    <h2>Se inscreva no nosso canal</h2>
+                    <span>e receba as novidades de nossa loja</span>
+                </div>
+                <div class="footer-news-form">
+                    <form action="#" method="post">
+                        <label for="email" class="inp-label">
+                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function dontGo(e) {
+            e.preventDefault();
+        }
+    </script>
+</body>
+</html>

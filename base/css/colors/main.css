@@ -1,0 +1,17 @@
+*
+{
+    --primary-color: #00bcd4;
+    --primary-color-r: 0, 188, 212;
+    --secondary-color: #ff9800;
+    --secondary-color-r: 255, 152, 0;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --divider-color: #bdbdbd;
+    --disabled-color: #bdbdbd;
+    --disabled-text-color: #757575;
+    --background-color: #f5f5f5;
+    --dark-color: #212121;
+
+    --border-primary-color: #00a4b9;
+    --border-secondary-color: #ff6d00;
+}
